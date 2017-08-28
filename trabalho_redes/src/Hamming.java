@@ -1,8 +1,8 @@
 
 import java.util.Scanner;
 
-
 public class Hamming {
+public void Hamming (){
      Scanner leia = new Scanner(System.in);
         System.out.print("Entre com o número de bits(m) para o cálculo do Hamming: ");
         int m = leia.nextInt();
@@ -76,4 +76,4 @@ public class Hamming {
 		}
 		return bitP;
 	}
-
+}

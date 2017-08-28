@@ -45,6 +45,8 @@ public class Main {
                 break;
 
             case 3:
+                Hamming hamming = new Hamming();
+                hamming.Hamming();
                 break;
             case 4:
                 ParidadeDupla paridade = new ParidadeDupla();
